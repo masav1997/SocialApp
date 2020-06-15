@@ -100,7 +100,7 @@ export default class EditArticle extends React.Component {
 									Подтвержден
 								</Text>
 							</View>
-							<Text style={{ fontSize: 22, color: '#151522', fontWeight: 'bold', marginTop: 5 }}>
+							<Text style={{ fontSize: 22, color: '#FD8112', fontWeight: 'bold', marginTop: 5 }}>
 								Льгота на проезд в общественном транспорте
 							</Text>
 						</View>

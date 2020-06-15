@@ -161,7 +161,7 @@ export default class ChooseTypeDoc extends React.Component {
 						<Text
 							style={{
 								fontSize: 22,
-								color: '#151522',
+								color: '#16A085',
 								fontWeight: 'bold',
 								textAlign: 'left',
 								alignSelf: 'flex-start',
@@ -189,7 +189,7 @@ export default class ChooseTypeDoc extends React.Component {
 						<Text
 							style={{
 								fontSize: 22,
-								color: '#151522',
+								color: '#CC95C0',
 								fontWeight: 'bold',
 								textAlign: 'left',
 								alignSelf: 'flex-start',

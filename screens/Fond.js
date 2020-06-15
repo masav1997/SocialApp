@@ -80,8 +80,9 @@ export default class Fond extends React.Component {
 								statusTitle="Подтвержден"
 								numDoc="40 13 168601"
 								numDocColor="#E55D87"
-								description="Выдан 21 12 2015 ТП №73 отдела УФМС по Санкт.Петербургу и Лен.области во
+								description1="Выдан 21 12 2015 ТП №73 отдела УФМС по Санкт.Петербургу и Лен.области во
 										Фрунзенском"
+								description="Выдан 21 12 2015 ТП №73 отдела УФМС"
 							/>
 							<CardWithoutBg
 								title="СНИЛС"

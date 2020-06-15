@@ -262,7 +262,7 @@ export default class AnswerCard extends React.Component {
 									marginBottom: 2,
 								}}
 							>
-								Company/username
+								Ted M.
 							</Text>
 						</View>
 						<View style={{ flex: 2, justifyContent: 'flex-end', flexDirection: 'row' }}>
@@ -297,8 +297,7 @@ export default class AnswerCard extends React.Component {
 								marginLeft: 29,
 							}}
 						>
-							Duis qui exercitation do exercitation occaecat exercitation cillum veniam ad amet magna eu
-							sunt. Veniam laboris adipisicing labore sit ipsum...
+							Когда будет обновление программы?
 						</Text>
 					</View>
 				</TouchableOpacity>
@@ -319,7 +318,7 @@ export default class AnswerCard extends React.Component {
 										marginLeft: 5,
 									}}
 								>
-									Company/username
+									Редактор
 								</Text>
 								<Text
 									style={{
@@ -366,8 +365,7 @@ export default class AnswerCard extends React.Component {
 									marginLeft: 29,
 								}}
 							>
-								Duis qui exercitation do exercitation occaecat exercitation cillum veniam ad amet magna
-								eu sunt. Veniam laboris adipisicing labore sit ipsum...
+								В ближайшее время мы планируем выпустить новую версию нашего приложения.
 							</Text>
 						</View>
 					</TouchableOpacity>
@@ -496,7 +494,7 @@ export default class AnswerCard extends React.Component {
 										marginBottom: 2,
 									}}
 								>
-									Company/username
+									Ted M.
 								</Text>
 							</View>
 							<View style={{ flex: 2, justifyContent: 'flex-end', flexDirection: 'row' }}>
@@ -531,8 +529,7 @@ export default class AnswerCard extends React.Component {
 									marginLeft: 29,
 								}}
 							>
-								Duis qui exercitation do exercitation occaecat exercitation cillum veniam ad amet magna
-								eu sunt. Veniam laboris adipisicing labore sit ipsum...
+								Спасибо за ответ. Буду ждать с нетерпением.
 							</Text>
 							<TouchableOpacity
 								style={{ flexDirection: 'row', width: '100%', marginTop: 5, marginLeft: 29 }}
@@ -575,7 +572,7 @@ export default class AnswerCard extends React.Component {
 									marginBottom: 2,
 								}}
 							>
-								Company/username
+								Mark E.
 							</Text>
 						</View>
 						<View style={{ flex: 2, justifyContent: 'flex-end', flexDirection: 'row' }}>
@@ -610,8 +607,7 @@ export default class AnswerCard extends React.Component {
 								marginLeft: 29,
 							}}
 						>
-							Duis qui exercitation do exercitation occaecat exercitation cillum veniam ad amet magna eu
-							sunt. Veniam laboris adipisicing labore sit ipsum...
+							Меня тоже интересует вопрос этот вопрос.
 						</Text>
 					</View>
 				</View>

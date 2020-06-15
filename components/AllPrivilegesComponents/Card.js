@@ -3,7 +3,7 @@ import { Text, Image, View, TouchableOpacity } from 'react-native';
 
 export default class Card extends React.Component {
 	render() {
-		const { onPress, statusImg, status, statusColor, title, typeImg, description } = this.props;
+		const { onPress, statusImg, status, statusColor, title, typeImg, description, onPress1 } = this.props;
 		return (
 			<TouchableOpacity
 				style={{
@@ -35,7 +35,7 @@ export default class Card extends React.Component {
 					</View>
 					<TouchableOpacity
 						style={{ flex: 1, height: '100%', marginRight: -15 }}
-						onPress={() => this.props.navigation.navigate('Comments')}
+						onPress={onPress1}
 					>
 						<Image
 							source={require('../../assets/icons/message.png')}
@@ -49,7 +49,7 @@ export default class Card extends React.Component {
 						<Text
 							style={{
 								fontSize: 22,
-								color: '#151522',
+								color: '#E55D87',
 								fontWeight: 'bold',
 								textAlign: 'left',
 							}}

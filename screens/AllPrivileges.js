@@ -62,6 +62,7 @@ export default class AllPrivileges extends React.Component {
 								statusColor="#F4D03F"
 								title="Льгота на проезд в общественном транспорте"
 								typeImg={require('../assets/icons/bus.png')}
+								onPress1={() => this.props.navigation.navigate('Comments')}
 							/>
 							<Card
 								onPress={() => this.props.navigation.navigate('AboutPrivilege')}
@@ -70,6 +71,7 @@ export default class AllPrivileges extends React.Component {
 								statusColor="#F4D03F"
 								title="Получение социальной помощи инвалидом"
 								typeImg={require('../assets/icons/pram.png')}
+								onPress1={() => this.props.navigation.navigate('Comments')}
 							/>
 							<Card
 								onPress={() => this.props.navigation.navigate('AboutPrivilege')}
@@ -79,6 +81,7 @@ export default class AllPrivileges extends React.Component {
 								title="Льгота по уплате гос.пошлины"
 								typeImg={require('../assets/icons/money.png')}
 								description="Паспорт Рф, СНИЛС, ИНН и ещё 3"
+								onPress1={() => this.props.navigation.navigate('Comments')}
 							/>
 							<Card
 								onPress={() => this.props.navigation.navigate('AboutPrivilege')}
@@ -88,6 +91,7 @@ export default class AllPrivileges extends React.Component {
 								title="Льгота по оплате коммунальных услуг"
 								typeImg={require('../assets/icons/tap.png')}
 								description="Паспорт Рф, СНИЛС, ИНН и ещё 3"
+								onPress1={() => this.props.navigation.navigate('Comments')}
 							/>
 						</View>
 					</View>

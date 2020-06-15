@@ -309,7 +309,7 @@ export default class Notifications extends React.Component {
 										<Text
 											style={{
 												fontSize: 22,
-												color: '#151522',
+												color: '#E55D87',
 												fontWeight: 'bold',
 												textAlign: 'left',
 											}}
@@ -355,7 +355,7 @@ export default class Notifications extends React.Component {
 										<Text
 											style={{
 												fontSize: 22,
-												color: '#151522',
+												color: '#FD8112',
 												fontWeight: 'bold',
 												textAlign: 'left',
 											}}
@@ -401,7 +401,7 @@ export default class Notifications extends React.Component {
 										<Text
 											style={{
 												fontSize: 22,
-												color: '#151522',
+												color: '#5FC3E4',
 												fontWeight: 'bold',
 												textAlign: 'left',
 											}}

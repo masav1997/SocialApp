@@ -154,7 +154,7 @@ export default class Comments extends React.Component {
 								<Text
 									style={{
 										fontSize: 22,
-										color: '#151522',
+										color: '#E55D87',
 										fontWeight: 'bold',
 										textAlign: 'left',
 										marginTop: 5,
@@ -170,8 +170,7 @@ export default class Comments extends React.Component {
 										textAlign: 'left',
 									}}
 								>
-									Duis qui exercitation do exercitation occaecat exercitation cillum veniam ad amet
-									magna eu sunt. Veniam laboris adipisicing labore...
+									Если Вас что-то интересует, Вы можете задать вопрос в этом чате и его обязательно примуть во внимание.
 								</Text>
 								<TouchableOpacity
 									style={{
@@ -234,7 +233,7 @@ export default class Comments extends React.Component {
 								<Text
 									style={{
 										fontSize: 22,
-										color: '#151522',
+										color: '#E55D87',
 										fontWeight: 'bold',
 										textAlign: 'left',
 										marginTop: 5,
@@ -250,8 +249,7 @@ export default class Comments extends React.Component {
 										textAlign: 'left',
 									}}
 								>
-									Duis qui exercitation do exercitation occaecat exercitation cillum veniam ad amet
-									magna eu sunt. Veniam laboris adipisicing labore...
+									Здесь обсуждают проблемы, возникающие в результате работы нашей организации.
 								</Text>
 								<TouchableOpacity
 									style={{

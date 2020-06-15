@@ -157,7 +157,7 @@ export default class MyPrivileges extends React.Component {
 										<Text
 											style={{
 												fontSize: 22,
-												color: '#151522',
+												color: '#FD8112',
 												fontWeight: 'bold',
 												textAlign: 'left',
 											}}
@@ -247,7 +247,7 @@ export default class MyPrivileges extends React.Component {
 										<Text
 											style={{
 												fontSize: 22,
-												color: '#151522',
+												color: '#E9D362',
 												fontWeight: 'bold',
 												textAlign: 'left',
 											}}
@@ -338,7 +338,7 @@ export default class MyPrivileges extends React.Component {
 										<Text
 											style={{
 												fontSize: 22,
-												color: '#151522',
+												color: '#04708C',
 												fontWeight: 'bold',
 												textAlign: 'left',
 											}}
@@ -455,7 +455,7 @@ export default class MyPrivileges extends React.Component {
 										<Text
 											style={{
 												fontSize: 22,
-												color: '#151522',
+												color: '#DE6262',
 												fontWeight: 'bold',
 												textAlign: 'left',
 											}}

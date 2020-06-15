@@ -1,11 +1,5 @@
 import * as React from 'react';
-import {
-	View,
-	Dimensions,
-	Text,
-	SafeAreaView,
-	ScrollView,
-} from 'react-native';
+import { View, Dimensions, Text, SafeAreaView, ScrollView } from 'react-native';
 
 import Header from '../components/ProfileComponents/Header';
 import TitleCard from '../components/ProfileComponents/TitleCard';
@@ -74,8 +68,9 @@ export default class Profile extends React.Component {
 								statusTitle="Подтвержден"
 								numDoc="40 13 168601"
 								numDocColor="#E55D87"
-								description="Выдан 21 12 2015 ТП №73 отдела УФМС по Санкт.Петербургу и Лен.области во
+								description1="Выдан 21 12 2015 ТП №73 отдела УФМС по Санкт.Петербургу и Лен.области во
 										Фрунзенском"
+								description="Выдан 21 12 2015 ТП №73 отдела УФМС"
 							/>
 							<CardWithoutBg
 								title="СНИЛС"

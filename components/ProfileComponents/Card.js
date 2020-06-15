@@ -3,8 +3,9 @@ import { View, TouchableOpacity, Image, Text, ImageBackground } from 'react-nati
 
 const bgStyle = {
 	width: 246,
-	height: 117,
+	height: 'auto',
 	padding: 15,
+	paddingBottom: 20
 };
 
 const titleTextStyle = {
@@ -28,8 +29,21 @@ const descriptionTextStyle = {
 };
 
 export default class Card extends React.Component {
+	state = {
+		touch: false,
+	};
 	render() {
-		const { onPress, statusImg, statusColor, statusTitle, numDoc, numDocColor, description, title } = this.props;
+		const {
+			onPress,
+			statusImg,
+			statusColor,
+			statusTitle,
+			numDoc,
+			numDocColor,
+			description,
+			description1,
+			title,
+		} = this.props;
 		return (
 			<TouchableOpacity onPress={onPress}>
 				<ImageBackground source={require('../../assets/icons/cardPassport.png')} style={bgStyle}>
@@ -61,7 +75,13 @@ export default class Card extends React.Component {
 					>
 						{numDoc}
 					</Text>
-					<Text style={descriptionTextStyle}>{description}</Text>
+					<TouchableOpacity onPress={() => this.setState({ touch: !this.state.touch })}>
+						{this.state.touch ? (
+							<Text style={descriptionTextStyle}>{description1}</Text>
+						) : (
+							<Text style={descriptionTextStyle}>{description}</Text>
+						)}
+					</TouchableOpacity>
 				</ImageBackground>
 			</TouchableOpacity>
 		);

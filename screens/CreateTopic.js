@@ -162,7 +162,7 @@ export default class CreateTopic extends React.Component {
 								/>
 							</TouchableOpacity>
 						</View>
-						<Text style={{ fontSize: 22, fontWeight: 'bold', color: '#151522', textAlign: 'left' }}>
+						<Text style={{ fontSize: 22, fontWeight: 'bold', color: '#E55D87', textAlign: 'left' }}>
 							Организационные вопросы
 						</Text>
 						<Text
@@ -174,12 +174,7 @@ export default class CreateTopic extends React.Component {
 								marginTop: 5,
 							}}
 						>
-							Duis qui exercitation do exercitation occaecat exercitation cillum veniam ad amet magna eu
-							sunt. Veniam laboris adipisicing labore sit ipsum ea ea excepteur culpa commodo veniam.
-							Incididunt excepteur cillum esse sunt ipsum ipsum elit ipsum nulla nostrud reprehenderit sit
-							elit. Adipisicing qui Duis qui exercitation do exercitation occaecat exercitation cillum
-							veniam ad amet magna eu sunt. Veniam laboris adipisicing labore sit ipsum ea ea excepteur
-							culpa commodo veniam.
+							Здесь обсуждают проблемы, возникающие в результате работы нашей организации.
 						</Text>
 					</View>
 					<View style={{ width: '100%', height: 'auto', backgroundColor: '#fff', marginTop: 5, padding: 20 }}>
